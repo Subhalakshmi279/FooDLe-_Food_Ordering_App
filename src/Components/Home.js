@@ -143,7 +143,7 @@ const Home = () => {
       <div class="cards-list">
 
         <div class="card 1">
-          <div class="card_image"> <img src={image} /> </div>
+          <div class="card_image"> <img src={image} alt="card1"/> </div>
           <div class="card_title title-white">
             <p>Order</p>
           </div>
@@ -151,7 +151,7 @@ const Home = () => {
 
         <div class="card 2">
           <div class="card_image">
-            <img src={image1} />
+            <img src={image1} alt="card1"/>
           </div>
           <div class="card_title title-white">
             <p>Delivery</p>
@@ -160,7 +160,7 @@ const Home = () => {
 
         <div class="card 3">
           <div class="card_image">
-            <img src={image3} />
+            <img src={image3} alt="card1"/>
           </div>
           <div class="card_title">
             <p>Payment</p>
@@ -169,7 +169,7 @@ const Home = () => {
 
         <div class="card 4">
           <div class="card_image">
-            <img src={image4} />
+            <img src={image4} alt="card1"/>
           </div>
           <div class="card_title title-black">
             <p>Enjoy</p>
