@@ -269,13 +269,13 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card2:nth-child(1):before {
-  background-image: url(C:\Users\User\Downloads\clarissa-carbungco-uy9DJw9e_vs-unsplash.jpg);
+  background-image: url(../images/cards2_img/i-1.jpg);
 }
 .card2:nth-child(2):before {
-  background-image: url(C:\Users\User\Downloads\side-view-profiterole-with-chocolate-flakes-syrup.jpg);
+  background-image: url(../images/cards2_img/i-2.jpg);
 }
 .card2:nth-child(3):before {
-  background-image: url(C:\Users\User\Downloads\front-view-fresh-cool-lemonade-inside-little-glass-with-ice-blue-background-water-cold-juice-cocktail-color-bar-drink-fruit.jpg);
+  background-image: url(../images/cards2_img/i-3.jpg);
 }
 .card2:nth-child(4):before {
   background-image: url(https://img.freepik.com/free-photo/fruit-plate-with-watermelon-greengage-plum-grape-peach-apricot-strawberry-melon-cherry_141793-2242.jpg);
