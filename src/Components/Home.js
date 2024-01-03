@@ -6,8 +6,11 @@ import image1 from '../Assets/images/d1.jpg'
 import image3 from '../Assets/images/d3.jpg'
 import image4 from '../Assets/images/d4.jpg'
 import image5 from '../Assets/images/4.png'
-// import { Instagram } from 'lucide-react';
-import { CupSoda,Utensils,Citrus,FishIcon,LucideDrumstick,Beef,Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
+import { Twitter } from 'lucide-react';
+// import { CupSoda,Utensils,Citrus,FishIcon,LucideDrumstick,Beef,Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 
 const Home = () => {
