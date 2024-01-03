@@ -1,0 +1,75 @@
+
+.auth-contianer
+{
+    height: 100vh;
+    width:100vw;
+    margin:0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin:0px;
+    background: #403B4A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("C:\Users\User\Documents\GitHub\React_IRC\CC1\foodapp\src\Assets\images\bg2.jpg");
+    
+}
+::placeholder{
+    color: #130909;
+}
+.but
+{
+    background-color: rgb(130, 122, 113);
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 18vh;
+    color:rgb(55, 39, 19) ;
+    font-size: larger;
+}
+.newE
+{
+    padding-right: 300px;
+}
+.correct
+{
+    height: 5vh;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(170, 148, 127, 0.87)
+}
+.container
+{
+        height: 70vh;
+        width: 23vw;
+        margin:0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap:1rem;
+        background-color: #ece2e2;
+        opacity: 50%;
+        /* background-image: url("https://media.istockphoto.com/id/1173579665/vector/seamless-pattern-supermarket-grocery-store-food-drinks-vegetables-fruits-fish-meat-dairy.jpg?s=612x612&w=0&k=20&c=XQQ9oPb6lx4m32iPIrmb1fzugwqr-WRUJo8nTod1D2Q="); */
+        flex-direction: column;
+        border-radius: 10px;
+
+        box-shadow:
+  3px 3.6px 3.6px rgba(0, 0, 0, 0.067),
+  7.2px 8.6px 8.6px rgba(0, 0, 0, 0.097),
+  13.6px 16.3px 16.3px rgba(0, 0, 0, 0.12),
+  24.3px 29px 29px rgba(0, 0, 0, 0.143),
+  45.5px 54.3px 54.3px rgba(0, 0, 0, 0.173),
+  109px 130px 130px rgba(0, 0, 0, 0.24)
+;
+}
+.correct:focus{
+    outline:none;
+    border-bottom: 4px solid rgb(189, 177, 160);
+}
+.call
+{
+    color:rgb(47, 34, 21);
+}
