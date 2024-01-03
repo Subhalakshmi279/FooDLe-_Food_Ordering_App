@@ -8,7 +8,7 @@ const Signup = () => {
 
                 <h1 className="call">Registration page</h1>
 
-                <input type="text" id="Name" className="correct" placeholder="Name" />
+                <input type="text" id="Name" className="correct" placeholder="Name" required/>
 
                 <input type="email" id="email" className="correct" placeholder="email" />
 
