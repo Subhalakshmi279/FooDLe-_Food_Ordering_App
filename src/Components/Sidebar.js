@@ -64,7 +64,7 @@ function Sidebar()
         <div class="fitem-details">
             <h4 class="item-name">Fresh Burger</h4>
             <h5 class="item-price">$2.85</h5>
-            <a href="" class="buy-now-btn">Order Now</a>
+            <span class="buy-now-btn">Order Now</span>
         </div>
     </div>
     <div class="f-item">
@@ -72,7 +72,7 @@ function Sidebar()
         <div class="fitem-details">
             <h4 class="item-name">Pizza</h4>
             <h5 class="item-price">$4.25</h5>
-            <a href="" class="buy-now-btn">Order Now</a>
+            <span class="buy-now-btn">Order Now</span>
         </div>
     </div>
     <div class="f-item">
@@ -80,7 +80,7 @@ function Sidebar()
         <div class="fitem-details">
             <h4 class="item-name">Lasagna</h4>
             <h5 class="item-price">$3.25</h5>
-            <a href="" class="buy-now-btn">Order Now</a>
+            <span class="buy-now-btn">Order Now</span>
         </div>
     </div>
     <div class="f-item">
@@ -88,7 +88,7 @@ function Sidebar()
         <div class="fitem-details">
             <h4 class="item-name">Onion-Rings</h4>
             <h5 class="item-price">$3.15</h5>
-            <a href="" class="buy-now-btn">Order Now</a>
+            <span class="buy-now-btn">Order Now</span>
         </div>
     </div>
   </div>

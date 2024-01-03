@@ -82,16 +82,16 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card1:nth-child(1):before {
-  background-image:url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-1.jpg");
-}
+  background-image:url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards_img\img-1.jpg");
+} 
 .card1:nth-child(2):before {
-  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-2.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards_img\img-2.jpg");
 }
 .card1:nth-child(3):before {
-  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-3.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards_img\img-3.jpg");
 }
 .card1:nth-child(4):before {
-  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-4.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards_img\img-4.jpg");
 }
 
 .content1 {
