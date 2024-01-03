@@ -619,7 +619,7 @@ body{
 }
 .text{
   justify-content: center;
-  margin-left: 45%;
+  margin-left: 42%;
   padding-top: 50px;
   color: #c92525;
 
@@ -983,16 +983,19 @@ height: 50%;
 
 }
 .word{
-  padding-left: 30%;
-  /* margin-top:10%; */
   height: 200px;
 }
 .text1{
   margin-top: 5%;
+  text-align: center;
 }
 .text2{
   color:#7a7171;
-  margin-bottom: 5%;
+  width: 70%;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  margin-left: 15rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .fade_rule {

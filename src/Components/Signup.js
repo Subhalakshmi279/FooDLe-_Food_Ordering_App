@@ -1,7 +1,51 @@
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Signup = () => {
+
+    const navigate = useNavigate();
+
+    function show() {
+        let x = document.getElementById("pass").value;
+        let y = document.getElementById("passr").value;;
+    
+        if (x === y) {
+          toast.success('Login Successful!', {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+    
+          
+          setTimeout(() => {
+          
+            navigate('/login');
+          }, 2000);
+        } else {
+          toast.error('Invalid password\nLogin failed!', {
+            position: "bottom-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+        }
+      }
+  
+
     return (
+        <>
         <div className="auth-contianer">
 
             <form class="container">
@@ -19,11 +63,24 @@ const Signup = () => {
                 <input type="password" id="passr" className="correct" placeholder="password" />
                 <input type="password" id="pass" className="correct" placeholder="retype your password" />
 
-                <Link to="/login"><input type="submit" className="but" value="SUBMIT" /></Link>
+               <button className='but' onClick={show}>Register</button>
 
 
             </form >
         </div>
+         <ToastContainer
+         position="bottom-right"
+         autoClose={5000}
+         hideProgressBar={false}
+         newestOnTop={false}
+         closeOnClick
+         rtl={false}
+         pauseOnFocusLoss
+         draggable
+         pauseOnHover
+         theme="light"
+         />
+        </>
 
     )
 }
