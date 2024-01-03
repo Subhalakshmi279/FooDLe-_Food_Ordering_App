@@ -82,16 +82,16 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card1:nth-child(1):before {
-  background-image: url("C:\Users\User\Downloads\delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce (1).jpg");
+  background-image:url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-1.jpg")
 }
 .card1:nth-child(2):before {
-  background-image: url("C:\Users\User\Downloads\chicken-skewers-with-slices-sweet-peppers-dill-tasty-food-weekend-meal.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-2.jpg");
 }
 .card1:nth-child(3):before {
-  background-image: url("C:\Users\User\Downloads\360_F_556384546_n12LjCh8DheZJQf8yZbno3ft4tXgLPOK.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-3.jpg");
 }
 .card1:nth-child(4):before {
-  background-image: url("C:\Users\User\Downloads\grilled-chicken-with-pepper-tomato.jpg");
+  background-image: url("C:\Users\User\Documents\GitHub\FooDLe-_Food_Ordering_App\src\Assets\images\cards img\img-4.jpg");
 }
 
 .content1 {
