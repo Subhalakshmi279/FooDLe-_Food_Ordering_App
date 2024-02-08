@@ -1,3 +1,5 @@
+FooDle App is a React-based web application that allows users to discover and explore various food recipes. It provides a user-friendly interface for searching, filtering, and viewing detailed information about different dishes.
+
 Home page
 ![Screenshot (225)](https://github.com/Subhalakshmi279/FooDLe-_Food_Ordering_App/assets/149653778/1c5cb73d-bd99-4651-85a0-fb823e0f8155)
 ![Screenshot (226)](https://github.com/Subhalakshmi279/FooDLe-_Food_Ordering_App/assets/149653778/cf9d986d-2128-48c8-8622-d679fbfdc3e4)
