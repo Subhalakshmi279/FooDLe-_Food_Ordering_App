@@ -1,0 +1,102 @@
+.col-md-6{
+  height:93vh;
+}
+.container-new{
+  background-color: rgb(238, 228, 219);
+}
+
+
+.new-cont {
+    height: 70%; /* Set the desired height */
+    width: 40%; /* Set the desired width */
+    position: absolute;
+    top: 20%; /* Adjust the vertical position */
+    left: 55%; /* Adjust the horizontal position */
+    /* transform: translate(-50%, -50%); */
+  }
+  
+  /* Additional styling for form components if needed */
+  .new-cont .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .new-cont label {
+    font-weight: 600;
+    color: #716f6f;
+  }
+  
+ /* button */
+ .fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.fill {
+  --color: #683333;
+  --hover: #916024;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: .7em 2em;
+  transition: 0.25s;
+}
+
+.fill:hover,
+.fill:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button.fill {
+  color: var(--color);
+}
+
+button.fill:hover, button.fill:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+
+.help1{
+    font-weight: 900 !important;
+    font-size: 60px;
+    bottom: -5%;
+    left: 10%;
+    position: relative;
+}
+
+.help2{
+    color: #504e4e;
+    bottom: -10%;
+    left: 10%;
+    position: relative;
+}
+
+.IMG-wrapper{
+    width: 500px;
+    bottom: -10%;
+    display: flex;
+    position: relative;
+    left: 10%;
+    height: 360px;
+  
+}
+
+
+  
+
+  input, textarea, select{
+    background: #f7f9f8 !important;
+  }
+  
+  .email-us{
+    text-decoration: underline;
+  }
+  
+  label{
+    font-weight: 600;
+    color: #716f6f
+  }
+ 

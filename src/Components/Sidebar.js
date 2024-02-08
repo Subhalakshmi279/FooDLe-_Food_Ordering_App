@@ -16,6 +16,7 @@ function Sidebar()
     <div className='container-fluid'>
 
           <div id="mySidebar" class="sidebar">
+    
       <Link to='#'><CircleUserRound /><span class="icon-text">Account</span></Link>
       <br />
       <Link to='#'> <Soup /><span class="icon-text">Order</span></Link>
@@ -30,7 +31,7 @@ function Sidebar()
 
 
         <div class="move">
-        <Link to='/'><input type='button' class="close" value='LOGOUT'/></Link>
+        <Link to='/'><button class="btn fourth">LOGOUT</button></Link>
         </div>
    
 

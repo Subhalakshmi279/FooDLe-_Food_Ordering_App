@@ -8,8 +8,7 @@
      align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background-color: rgb(230, 235, 241);
-   
+    background-color: rgb(241, 235, 230);
     border-radius: 10px;
     box-shadow:
   18.4px 15.5px 4.5px -15px rgba(0, 0, 0, 0.069),
@@ -21,6 +20,9 @@
     color: #110c0c;
 }
 }
+.auth-contianer{
+    overflow: hidden;
+}
 .format
 {
     background-color:rgba(114, 96, 79, 0.87);
@@ -29,7 +31,7 @@
     border-radius: 10px;
     /* padding-top: 10%; */
     border: none;
-    color: #ece2e2;
+    color: #370f0f;
     gap: 3 rem;
 }
 .format a{

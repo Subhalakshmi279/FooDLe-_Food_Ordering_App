@@ -399,26 +399,28 @@ body{
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
- .ima-wrapper
- {
+  .box-02 {
   
-    height: 100%;
-    width: 35rem;
-  gap: 1rem;
-   padding-left: 20%;
-   margin-top: 320px;
-   /* margin-bottom: 50px; */
-    /* font-size: large; */
-    color: #c92525;
-    /* font-size: xx-large; */
-    /* background-color: #e38d5f; */
+  height: 52%;
+  width: 33%;
+  position: relative;
+  display: flex;
+ left:15%;
+ top:-9%;
+
 }
-.hi{
-  text-align: center;
-  padding-top: 40px;
-  /* font-size: xx-large; */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.effect-02{
+  font-size:5rem;
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to right, rgb(180, 25, 25), rgb(197, 145, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-transform: uppercase; */
+
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 
 .img-wrapper{
   
@@ -428,7 +430,7 @@ body{
      left: 50%;
      top: 50%; 
      border-radius: 60%;
-     margin-left: 100px;
+     margin-left: 190px;
      margin-top: -210px;
     animation-name: spin;
     animation-duration: 6000ms;

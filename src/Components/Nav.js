@@ -6,8 +6,8 @@ const Nav =()=>
                 <ul>
                     <li class="new-wrapper1">FooDle</li>
 
-                    <Link to='/Sidebar'>
-                    <li class="nex-wrapper1">Orders</li>
+                    <Link to='/Help'>
+                    <li class="nex-wrapper1">Help</li>
                     </Link>
                     
                     <Link to='/Login'>
