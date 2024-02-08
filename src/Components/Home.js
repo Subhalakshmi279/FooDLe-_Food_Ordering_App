@@ -101,7 +101,7 @@ const Home = () => {
             <h2 className="title">Brownie</h2>
             <p className="copy">Satisfy your sweet cravings with our decadent brownie — a heavenly treat of rich, fudgy chocolate goodness, served warm and
               topped with a drizzle of indulgent sauce for the perfect dessert indulgence.</p>
-            <button className="btn">View menu</button>
+            <button className="btn2">View menu</button>
           </div>
         </div>
         <div className="card2">
