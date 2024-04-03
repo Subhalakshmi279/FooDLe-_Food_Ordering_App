@@ -1,44 +1,54 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
 
 const Login = () => {
   const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
-  function show(e) {
-    e.preventDefault(); // Prevent the default form submission behavior
+  const handleEmailChange = (e) => setEmail(e.target.value);
+  const handlePasswordChange = (e) => setPassword(e.target.value);
 
-    let x = document.getElementById("pw").value;
-    let y = "1234";
+  const handleLogin = async (e) => {
+    e.preventDefault();
 
-    if (x === y) {
-      toast.success('Login Successful!', {
-        position: "bottom-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
+    try {
+      const response = await axios.post('http://localhost:8080/login', {
+        email,
+        password,
       });
 
-      setTimeout(() => {
+      if (response.status === 200) {
+        toast.success('Login Successful for ${response.data}', {
+          position: 'bottom-right',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'dark',
+        });
         navigate('/sidebar');
-      }, 2000);
-    } else {
-      toast.error('Invalid password\nLogin failed!', {
-        position: "bottom-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-      });
+      } else {
+        toast.error('Invalid credentials\nLogin failed!', {
+          position: 'bottom-right',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'dark',
+        });
+      }
+    } catch (error) {
+      console.error('Login Error:', error);
     }
-  }
+  };
 
   return (
     <>
@@ -46,11 +56,10 @@ const Login = () => {
         <form className="operation">
           <h1 className="co">FooDle</h1>
 
-          <input type="text" className="format" id="username" placeholder="USERNAME" required />
-          <input type="password" className="format" id="pw" placeholder="PASSWORD-1234 " required />
+          <input type="text" className="format" id="username" placeholder="EMAIL" value={email} onChange={handleEmailChange} required />
+          <input type="password" className="format" id="pw" placeholder="PASSWORD" value={password} onChange={handlePasswordChange} required />
           
-          {/* Change onSubmit to onClick */}
-          <button className="opt" onClick={show}>Login</button>
+          <button className="opt" onClick={handleLogin}>Login</button>
         </form>
       </div>
       <ToastContainer
@@ -67,6 +76,6 @@ const Login = () => {
       />
     </>
   );
-}
+};
 
-export default Login;
+export default Login;
